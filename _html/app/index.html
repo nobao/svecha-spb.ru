@@ -30,25 +30,12 @@
 
 <div class="preloader"><div class="pulse"></div></div>
 
-<div class="modal" data-modal>
-	<div class="modal-content">
-		<button role="button" class="close-icon" data-modal="close-modal">X</button>
-		<div class="modal-header">
-			<h2 class="h2 modal-title">Онлайн бронирование</h2>
-		</div>
-		<div class="modal-body">
-			<div id="mbh-form-wrapper"><a href="https://maxi-booking.ru/">система онлайн бронирования</a></div>
-		</div>
-	</div>
-</div>
-
-
 	<div id="my-page">
 		<div id="my-header">
 			<header class="site-header" style="background-image: url(img/@1x/top-bg.jpg)">
 
 				<div class="top-line">
-					<a href="https://svecha-spb.ru" class="logo"><img src="img/favicon/favicon-venge.svg" alt="Паломнический центр СВЕЧА"></a>
+					<a class="logo"><img src="img/favicon/favicon-venge.svg" alt="Паломнический центр СВЕЧА"></a>
 					<div class="phone"><i class="fas fa-mobile-alt"></i><a class="phone-a" href="tel:+79811497784">+7 (981) 149-77-84</a></div>
 					<a href="#my-menu" class="hamburger hamburger--elastic">
 						<span class="hamburger-box">
@@ -80,10 +67,11 @@
 											<strong><i class="fas fa-sun"></i>в Санкт-Петербурге<i class="fas fa-sun"></i></strong>
 										</div>
 
-										<p><strong>СВЕЧА</strong> - это уютный островок, где гости нашего города, совершающие свои паломнические либо
+										<p><strong>СВЕЧА</strong> – это уютный островок, где гости нашего города, совершающие свои паломнические либо
 											 туристические поездки, находят радушный прием и домашнюю обстановку, наполняющие их светом и теплом.</p>
 
-										<a href="#" data-modal="open-modal" class="button">Забронировать</a>
+										<!-- <a href="#" data-modal="open-modal" class="button">Забронировать</a> -->
+										<input class="button" type="button" value="Забронировать" onclick="clW_cb2ce2142c528a253e0946324c07f527.openform();">
 									</div>
 								</div>
 								<div class="col-md-6 col-10 order-md-1 order-0">
@@ -99,9 +87,9 @@
 				<div class="header-social">
 					<nav class="soc">
 						<ul>
-							<li><a href="https://vk.com/" target="_blank"><i class="fab fa-vk"></i></a></li>
+							<li><a href="https://vk.com/spbsvecha" target="_blank"><i class="fab fa-vk"></i></a></li>
 							<li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.instagram.com/svecha.spb/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 							<li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
 						</ul>
 					</nav>
@@ -136,9 +124,9 @@
 							<div class="carousel-rooms-composition">
 								<h3 class="h3">Одноместный<br>номер</h3>
 								<ul class="carousel-rooms-list">
-									<li>Пожертвование за сутки - <strong>1000 <i class="fas fa-ruble-sign"></i></strong></li>
-									<li>Площадь номера - <strong>7 м<sup>2</sup></strong></li>
-									<li>Количество номеров - <strong>1</strong></li>
+									<li>Пожертвование за сутки – <strong>1300 <i class="fas fa-ruble-sign"></i></strong></li>
+									<li>Площадь номера – <strong>7 м<sup>2</sup></strong></li>
+									<li>Количество номеров – <strong>2</strong></li>
 								</ul>
 								<a href="#" class="button button-white">Описание</a>
 							</div>
@@ -151,44 +139,14 @@
 							<div class="carousel-rooms-composition">
 								<h3 class="h3">Двухместный<br>стандартный номер</h3>
 								<ul class="carousel-rooms-list">
-									<li>Пожертвование за сутки - <strong>1500 <i class="fas fa-ruble-sign"></i></strong></li>
-									<li>Площадь номера - <strong>13 м<sup>2</sup></strong></li>
-									<li>Количество номеров - <strong>15</strong></li>
+									<li>Пожертвование за сутки – <strong>1800 <i class="fas fa-ruble-sign"></i></strong></li>
+									<li>Площадь номера – <strong>13 м<sup>2</sup></strong></li>
+									<li>Количество номеров – <strong>15</strong></li>
 								</ul>
 								<a href="#" class="button button-white">Описание</a>
 							</div>
 						</div>
 						<div class="carousel-rooms-image" style="background-image: url(img/@1x/rooms-photo-2.jpg)"></div>
-					</div>
-
-					<div class="carousel-rooms-item">
-						<div class="carousel-rooms-content">
-							<div class="carousel-rooms-composition">
-								<h3 class="h3">Двухместный<br>бюджетный номер</h3>
-								<ul class="carousel-rooms-list">
-									<li>Пожертвование за сутки - <strong>1300 <i class="fas fa-ruble-sign"></i></strong></li>
-									<li>Площадь номера - <strong>10 м<sup>2</sup></strong></li>
-									<li>Количество номеров - <strong>1</strong></li>
-								</ul>
-								<a href="#" class="button button-white">Описание</a>
-							</div>
-						</div>
-						<div class="carousel-rooms-image" style="background-image: url(img/@1x/rooms-photo-3.jpg)"></div>
-					</div>
-
-					<div class="carousel-rooms-item">
-						<div class="carousel-rooms-content">
-							<div class="carousel-rooms-composition">
-								<h3 class="h3">Двухместный<br>большой номер</h3>
-								<ul class="carousel-rooms-list">
-									<li>Пожертвование за сутки - <strong>1500 <i class="fas fa-ruble-sign"></i></strong></li>
-									<li>Площадь номера - <strong>25 м<sup>2</sup></strong></li>
-									<li>Количество номеров - <strong>1</strong></li>
-								</ul>
-								<a href="#" class="button button-white">Описание</a>
-							</div>
-						</div>
-						<div class="carousel-rooms-image" style="background-image: url(img/@1x/rooms-photo-4.jpg)"></div>
 					</div>
 							
 					<div class="carousel-rooms-item">
@@ -196,9 +154,9 @@
 							<div class="carousel-rooms-composition">
 								<h3 class="h3">Двухместный номер<br>с ванной комнатой</h3>
 								<ul class="carousel-rooms-list">
-									<li>Пожертвование за сутки - <strong>2500 <i class="fas fa-ruble-sign"></i></strong></li>
-									<li>Площадь номера - <strong>26 м<sup>2</sup></strong></li>
-									<li>Количество номеров - <strong>1</strong></li>
+									<li>Пожертвование за сутки – <strong>2800 <i class="fas fa-ruble-sign"></i></strong></li>
+									<li>Площадь номера – <strong>26 м<sup>2</sup></strong></li>
+									<li>Количество номеров – <strong>1</strong></li>
 								</ul>
 								<a href="#" class="button button-white">Описание</a>
 							</div>
@@ -211,9 +169,9 @@
 							<div class="carousel-rooms-composition">
 								<h3 class="h3">Трехместный<br>номер</h3>
 								<ul class="carousel-rooms-list">
-									<li>Пожертвование за сутки - <strong>2200 <i class="fas fa-ruble-sign"></i></strong></li>
-									<li>Площадь номера - <strong>18 м<sup>2</sup></strong></li>
-									<li>Количество номеров - <strong>1</strong></li>
+									<li>Пожертвование за сутки – <strong>2500 <i class="fas fa-ruble-sign"></i></strong></li>
+									<li>Площадь номера – <strong>18 м<sup>2</sup></strong></li>
+									<li>Количество номеров – <strong>2</strong></li>
 								</ul>
 								<a href="#" class="button button-white">Описание</a>
 							</div>
@@ -226,9 +184,9 @@
 							<div class="carousel-rooms-composition">
 								<h3 class="h3">Люкс<br>с одной спальней</h3>
 								<ul class="carousel-rooms-list">
-									<li>Пожертвование за сутки - <strong>3500 <i class="fas fa-ruble-sign"></i></strong></li>
-									<li>Площадь номера - <strong>30 м<sup>2</sup></strong></li>
-									<li>Количество номеров - <strong>2</strong></li>
+									<li>Пожертвование за сутки – <strong>3800 <i class="fas fa-ruble-sign"></i></strong></li>
+									<li>Площадь номера – <strong>30 м<sup>2</sup></strong></li>
+									<li>Количество номеров – <strong>2</strong></li>
 								</ul>
 								<a href="#" class="button button-white">Описание</a>
 							</div>
@@ -711,26 +669,7 @@
 
 		</div>
 
-		<section class="s-booking section-overlay" style="background-image: url(img/@1x/s-review-photo.jpg)">
-			
-			<div class="container">
-
-				<div class="row">
-
-					<div id="booking" class="col-md-12">
-						<h2 class="h2 text-center">Результат запроса бронирования</h2>
-					</div>
-
-					<div class="col-md-12">
-						<div id="mbh-results-wrapper"><a href="https://maxi-booking.com/">система онлайн бронирования</a></div>
-					</div>
-
-				</div>
-				
-			</div>	
-		</section>
-
-
+		
 		<div id="my-footer">
 
 			<div class="main-footer">
@@ -745,9 +684,9 @@
 								<div class="footer-social">
 									<nav class="soc">
 										<ul>
-											<li><a href="https://vk.com/" target="_blank"><i class="fab fa-vk"></i></a></li>
+											<li><a href="https://vk.com/spbsvecha" target="_blank"><i class="fab fa-vk"></i></a></li>
 											<li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+											<li><a href="https://www.instagram.com/svecha.spb/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 											<li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
 										</ul>
 									</nav>
@@ -783,10 +722,9 @@
 	 </section>
 
 	 <div class="top" title="Наверх"><i class="fas fa-angle-double-up"></i></div>
-
-	<!-- скрипт maxi-booking -->
-	<script src="https://baosnab.maxi-booking.ru/management/online/api/file/5d1122393ac82741d7145b7c/load-search-form"></script> 
-	<script src="https://baosnab.maxi-booking.ru/management/online/api/file/5d1122393ac82741d7145b7c/load-result"></script>
+	
+	<!-- скрипт для CLOFF Hotel -->
+	<script type="text/javascript" src="https://29734.cloff.ru/widget/hb2.3202.cb2ce2142c528a253e0946324c07f527.js"></script>
 
 	<script src="js/scripts.min.js"></script>
 
